@@ -11,16 +11,16 @@ let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
     
-    {songName: "Asmaan ko chukar dekha", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Alag Asmaan", coverPath: "covers/2.jpg"},
-    {songName: "Bom diggy", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Daku", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Dil Nu", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "EXcuses", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Its the time to disco", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Kar gayi chull", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
-    {songName: "Kho gaye", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
-    {songName: "StarBoy", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Song 1", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
+    {songName: "Song 2", coverPath: "covers/2.jpg"},
+    {songName: "Song 3", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
+    {songName: "Song 4", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
+    {songName: "Song 5", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
+    {songName: "Song 6", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
+    {songName: "Song 7", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
+    {songName: "Song 8", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
+    {songName: "Song 9", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
+    {songName: "Song 10", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
