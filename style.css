@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 body{
-    background-color: rgba(32, 33, 33, 0.86);
+    background-color: rgb(0, 0, 0);
 }
 
 *{
@@ -18,7 +18,7 @@ nav ul{
     align-items: center;
     list-style-type: none;
     height: 65px;
-    background-color: rgb(174, 0, 255);
+    background-color: rgb(36, 126, 44, 0.849);
     color: white;
 }
 
@@ -39,7 +39,7 @@ nav ul li{
 
 .container{
     min-height: 72vh;
-    background-color: rgba(0, 180, 235, 0.217);
+    background-color: rgba(255, 136, 0, 0.616);
     color: white;
    font-family: 'Varela Round', sans-serif;
    display: flex;
@@ -47,13 +47,15 @@ nav ul li{
    width: 70%;
    border-radius: 12px;
    padding: 34px;
+   background-image: url('bg.jpg');
+   
 }
 
 .bottom{
     position: sticky;
     bottom: 0;
     height: 60px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(36, 126, 44);
     color: white;
     display: flex;
     justify-content: center;
